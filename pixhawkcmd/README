@@ -1,0 +1,11 @@
+// http://answers.ros.org/question/11330/how-can-i-use-bag-file-data-in-matlab/#3799
+//NOTE: rostopic echo -p /px4flow/px4flow/raw/optical_flow_rad > test2.txt
+//   saves it into a neat matlab text file format
+// use rqt_plot /px4flow/px4flow/raw/optical_flow_rad/integrated_x
+// use rqt_plot /px4flow/px4flow/raw/optical_flow_rad/integrated_y
+
+
+//rosrun px4_test listener_px4
+rosrun pixhawkcmd pixhawk_send
+
+
